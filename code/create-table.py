@@ -19,4 +19,3 @@ cur.execute("""
 cur.execute("INSERT INTO latihan_users VALUES (%s, %s, %s, %s, %s)", (1, 'hello@dataquest.io', 'Some Name', '621234413', '12343'))
 conn.commit()
 print("Create Table Succes")
-
